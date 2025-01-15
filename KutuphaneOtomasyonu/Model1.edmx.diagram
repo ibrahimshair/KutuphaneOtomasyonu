@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="29f956b9ee2d4fc58df5de8d95e47157" Name="Diagram1">
+        <EntityTypeShape EntityType="KutuphaneOtomasyonModel.Personeller" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KutuphaneOtomasyonModel.kayitlar" Width="1.5" PointX="6" PointY="1" />
+        <EntityTypeShape EntityType="KutuphaneOtomasyonModel.Kaynaklar" Width="1.5" PointX="3.25" PointY="0.625" />
+        <EntityTypeShape EntityType="KutuphaneOtomasyonModel.kullanicilar" Width="1.5" PointX="3.875" PointY="3.5" />
+        <EntityTypeShape EntityType="KutuphaneOtomasyonModel.sysdiagrams" Width="1.5" PointX="1.125" PointY="4" />
+        <AssociationConnector Association="KutuphaneOtomasyonModel.FK_kayitlar_Kaynaklar" />
+        <AssociationConnector Association="KutuphaneOtomasyonModel.FK_kayitlar_kullanicilar" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
